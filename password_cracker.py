@@ -13,10 +13,11 @@ for value in range(10):
     #     a.append(i)
     for y in range(value):
         a = [x+i for i in chars for x in a]
-        # a = []
+        # a_new = []
         # for i in chars:
         #     for x in a:
-        #         a.append(x + i)
+        #         a_new.append(x + i)
+        # a = a_new
        
     guess = guess + a
     if password in guess:
